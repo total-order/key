@@ -4,12 +4,19 @@
 Comparison function from key function for JavaScript.
 See [docs](https://total-order.github.io/key/index.html).
 
-> :building_construction: Caveat emptor! This is work in progress. Code may be
-> working. Documentation may be present. Coherence may be. Maybe.
+```js
+import {key, len, prop} from '@total-order/key';
+import {increasing} from '@total-order/primitive';
+import {iterable} from '@total-order/iter';
 
-> :warning: Depending on your environment, the code may require
-> `regeneratorRuntime` to be defined, for instance by importing
-> [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
+const order = key(
+	iterable(increasing),
+	function* (x) {
+		yield x['🙀'] * x['🦿'];
+		yield x['🤖'];
+	}
+);
+```
 
 [![License](https://img.shields.io/github/license/total-order/key.svg)](https://raw.githubusercontent.com/total-order/key/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@total-order/key.svg)](https://www.npmjs.org/package/@total-order/key)
