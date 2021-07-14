@@ -1,7 +1,7 @@
 {
   "name": "@total-order/key",
   "description": "Comparison function from key function for JavaScript",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "license": "AGPL-3.0",
   "author": "make-github-pseudonymous-again",
   "homepage": "https://total-order.github.io/key",
