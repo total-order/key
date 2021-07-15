@@ -1559,10 +1559,10 @@
   resolved "https://registry.yarnpkg.com/@total-order/iter/-/iter-1.0.0.tgz#5e6708a5abb48110d7df4de85024573b8f6c22ff"
   integrity sha512-Uia+I9E5iZSspwf2aEjYeYqalQfV1QmvOLpo6YV6olYUrMrtyJSPXmW0lxNwv6p+NptbOokD05mnSPqjGKiS2w==
 
-"@total-order/primitive@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@total-order/primitive/-/primitive-1.0.0.tgz#e459288116d5a68b420920d4e7de5cd7689e5cb7"
-  integrity sha512-egH1HiytKU1T8osp0jgiKOm/fKmDeCK58I/CN2cnEvewPpmDa7PT8hoHpVrq8ru396GoP/nvSPg6YqD/gF9RNw==
+"@total-order/primitive@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@total-order/primitive/-/primitive-1.0.1.tgz#7e409d303a2a3b24ed2af30bd9068027d6a4a326"
+  integrity sha512-BXCXyXoQIpdwFkplPRTuxFB0I1GHHia4t22bLAEqjdk48DFwQMwSbHq1EdLA81X/eFC/b6RdVxG4Q+WEcfs0aA==
 
 "@types/cacheable-request@^6.0.1":
   version "6.0.1"
