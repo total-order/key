@@ -1,6 +1,9 @@
 import test from 'ava';
+
 import {increasing, decreasing} from '@total-order/primitive';
+
 import {repr, rel, eq, lt, gt} from './_fixtures.js';
+
 import {key, prop, len} from '#module';
 
 const _increasingKey = key(increasing, (x) => x.length);

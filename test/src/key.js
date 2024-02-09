@@ -1,7 +1,10 @@
 import test from 'ava';
-import {increasing} from '@total-order/primitive';
+
 import {iterable} from '@total-order/iter';
+import {increasing} from '@total-order/primitive';
+
 import {repr, rel, eq, lt, gt} from './_fixtures.js';
+
 import {key} from '#module';
 
 const generator = key(iterable(increasing), function* (x) {
