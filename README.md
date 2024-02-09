@@ -20,7 +20,7 @@ const order = key(
 
 [![License](https://img.shields.io/github/license/total-order/key.svg)](https://raw.githubusercontent.com/total-order/key/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@total-order/key.svg)](https://www.npmjs.org/package/@total-order/key)
-[![Tests](https://img.shields.io/github/workflow/status/total-order/key/ci:test?event=push&label=tests)](https://github.com/total-order/key/actions/workflows/ci:test.yml?query=branch:main)
+[![Tests](https://img.shields.io/github/workflow/status/total-order/key/ci?event=push&label=tests)](https://github.com/total-order/key/actions/workflows/ci.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/total-order/key.svg)](https://github.com/total-order/key/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/total-order/key.svg)](https://github.com/total-order/key/issues)
 [![Downloads](https://img.shields.io/npm/dm/@total-order/key.svg)](https://www.npmjs.org/package/@total-order/key)

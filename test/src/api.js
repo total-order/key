@@ -1,8 +1,7 @@
 import test from 'ava';
 import {increasing, decreasing} from '@total-order/primitive';
-import {key, prop, len} from '../../src/index.js';
-
 import {repr, rel, eq, lt, gt} from './_fixtures.js';
+import {key, prop, len} from '#module';
 
 const _increasingKey = key(increasing, (x) => x.length);
 const _decreasingKey = key(decreasing, (x) => x.length);
